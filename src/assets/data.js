@@ -17,3 +17,11 @@ export const valuesData = [
         desc: 'Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.'
     },
 ]
+
+
+
+export const countsData = [
+    {
+        icon: 'bi-emoji-smile',
+    }
+]
