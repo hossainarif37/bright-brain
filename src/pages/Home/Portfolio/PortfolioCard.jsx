@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const PortfolioCard = ({ portfolioInfo }) => {
     const { img, title, subTitle, portfolioClass } = portfolioInfo;
@@ -10,7 +11,7 @@ const PortfolioCard = ({ portfolioInfo }) => {
                     <p>{subTitle}</p>
                     <div className="portfolio-links">
                         <a href={img} data-gallery="portfolioGallery" className="portfokio-lightbox" title={title}><i className="bi bi-plus"></i></a>
-                        <a href="/portfolio" title="More Details"><i className="bi bi-link"></i></a>
+                        <Link to="/portfolio-details" title="More Details"><i className="bi bi-link"></i></Link>
                     </div>
                 </div>
             </div>
