@@ -1,8 +1,23 @@
+import { Link } from "react-router-dom";
 import { blog1 } from "../../assets/image";
 
 const BlogSingle = () => {
     return (
         <div>
+
+            {/* <!-- ======= Breadcrumbs ======= --> */}
+            <section className="breadcrumbs">
+                <div className="container">
+
+                    <ol>
+                        <li><Link to="/" className="text-decoration-underline">Home</Link></li>
+                        {/* <li>Blog</li> */}
+                    </ol>
+                    <h2>Blog</h2>
+
+                </div>
+            </section>
+            {/* <!-- End Breadcrumbs --> */}
             <section id="blog" className="blog">
                 <div className="container" data-aos="fade-up">
 

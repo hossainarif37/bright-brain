@@ -1,15 +1,16 @@
+import { Link } from "react-router-dom";
 import { portfolio1, portfolio2, portfolio3 } from "../../assets/image";
 
 const PortfolioDetails = () => {
     return (
         <section>
             {/* -- ======= Breadcrumbs ======= -- */}
-            <div className="breadcrumbs">
+            <div className="breadcrumbs" style={{ marginTop: '40px' }}>
                 <div className="container">
 
                     <ol>
-                        <li><a href="index.html">Home</a></li>
-                        <li>Portfolio Details</li>
+                        <li><Link to="/" className="text-decoration-underline">Home</Link></li>
+                        {/* <li>Portfolio Details</li> */}
                     </ol>
                     <h2>Portfolio Details</h2>
 
