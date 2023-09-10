@@ -1,5 +1,5 @@
 
-const TestimonialCart = ({ testimonialInfo }) => {
+const TestimonialCard = ({ testimonialInfo }) => {
     const { disc, img, name, title } = testimonialInfo;
     return (
         <div className="swiper-slide">
@@ -20,4 +20,4 @@ const TestimonialCart = ({ testimonialInfo }) => {
     );
 };
 
-export default TestimonialCart;
+export default TestimonialCard;

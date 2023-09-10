@@ -1,5 +1,5 @@
 import { pricingData } from "../../../assets/data";
-import PricingCart from "./PricingCart";
+import PricingCard from "./PricingCard";
 
 const Pricing = () => {
 
@@ -16,7 +16,7 @@ const Pricing = () => {
                 <div className="row gy-4" data-aos="fade-left">
 
                     {
-                        pricingData.map((pricingInfo, i) => <PricingCart key={i} pricingInfo={pricingInfo} />)
+                        pricingData.map((pricingInfo, i) => <PricingCard key={i} pricingInfo={pricingInfo} />)
                     }
 
                 </div>

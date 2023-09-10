@@ -1,6 +1,5 @@
 import { portfolioData } from "../../../assets/data";
-import { portfolio1, portfolio2, portfolio3, portfolio4, portfolio5, portfolio6, portfolio7, portfolio8, portfolio9 } from "../../../assets/image";
-import PortfolioCart from "./PortfolioCart";
+import PortfolioCard from "./PortfolioCard";
 
 const Portfolio = () => {
     return (
@@ -27,7 +26,7 @@ const Portfolio = () => {
                 <div className="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
                     {
-                        portfolioData.map((portfolioInfo, i) => <PortfolioCart key={i} portfolioInfo={portfolioInfo} />)
+                        portfolioData.map((portfolioInfo, i) => <PortfolioCard key={i} portfolioInfo={portfolioInfo} />)
                     }
 
                 </div>

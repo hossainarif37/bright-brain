@@ -1,5 +1,5 @@
 import { testimonialsData } from "../../../assets/data";
-import TestimonialCart from "./TestimonialCart";
+import TestimonialCard from "./TestimonialCard";
 
 const Testimonials = () => {
     return (
@@ -16,7 +16,7 @@ const Testimonials = () => {
                     <div className="swiper-wrapper">
 
                         {
-                            testimonialsData.map((testimonialInfo, i) => <TestimonialCart key={i} testimonialInfo={testimonialInfo} />)
+                            testimonialsData.map((testimonialInfo, i) => <TestimonialCard key={i} testimonialInfo={testimonialInfo} />)
                         }
 
                     </div>

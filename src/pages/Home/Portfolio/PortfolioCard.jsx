@@ -1,5 +1,5 @@
 
-const PortfolioCart = ({ portfolioInfo }) => {
+const PortfolioCard = ({ portfolioInfo }) => {
     const { img, title, subTitle, portfolioClass } = portfolioInfo;
     return (
         <div className={`col-lg-4 col-md-6 portfolio-item ${portfolioClass}`}>
@@ -18,4 +18,4 @@ const PortfolioCart = ({ portfolioInfo }) => {
     );
 };
 
-export default PortfolioCart;
+export default PortfolioCard;

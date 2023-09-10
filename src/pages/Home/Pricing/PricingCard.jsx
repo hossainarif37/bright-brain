@@ -1,5 +1,5 @@
 
-const PricingCart = ({ pricingInfo }) => {
+const PricingCard = ({ pricingInfo }) => {
     const { spanTitle, spanTitleStyle, style, price, title, img, listStyle } = pricingInfo;
     return (
         <div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
@@ -21,4 +21,4 @@ const PricingCart = ({ pricingInfo }) => {
     );
 };
 
-export default PricingCart;
+export default PricingCard;
