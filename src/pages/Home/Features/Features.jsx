@@ -5,6 +5,7 @@ import FeatureIcon from "./FeatureIcon";
 import FeatureTab from "./FeatureTab";
 
 const Features = () => {
+    const featureTab = ['tab1, tab2, tab3'];
     return (
         <section id="features" className="features">
 
@@ -57,9 +58,11 @@ const Features = () => {
 
                         {/* <!-- Tab Content --> */}
                         <div className="tab-content">
-                            <FeatureTab />
-                            <FeatureTab />
-                            <FeatureTab />
+                            {
+                                featureTab.map((tab, i) => <FeatureTab key={i} tab={tab} />)
+                            }
+
+
                         </div>
 
                     </div>

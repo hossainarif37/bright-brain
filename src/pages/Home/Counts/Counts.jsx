@@ -1,5 +1,5 @@
-import { countData } from "../../assets/data";
-import CountCard from "./Counts/CountCard";
+import { countData } from "../../../assets/data";
+import CountCard from "./CountCard";
 
 const Counts = () => {
     return (

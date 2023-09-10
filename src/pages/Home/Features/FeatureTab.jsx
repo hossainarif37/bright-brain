@@ -1,7 +1,7 @@
 
-const FeatureTab = () => {
+const FeatureTab = ({ tab }) => {
     return (
-        <div className="tab-pane fade show active" id="tab1">
+        <div className="tab-pane fade show active" id={tab}>
             <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
             <div className="d-flex align-items-center mb-2">
                 <i className="bi bi-check2"></i>

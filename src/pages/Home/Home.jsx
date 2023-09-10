@@ -2,27 +2,16 @@ import About from "./About";
 import Blogs from "./Blogs/Blogs";
 import Clients from "./Clients/Clients";
 import ContactForm from "./ContactForm/ContactForm";
-import Counts from "./Counts";
-<<<<<<< HEAD
-import FAQ from "./FAQ";
+import Counts from "./Counts/Counts";
+import FAQ from "./FAQ/FAQ";
 import Features from "./Features/Features";
 import Hero from "./Hero";
-import Portfolio from "./Portfolio";
-import Pricing from "./Pricing";
+import Portfolio from "./Portfolio/Portfolio";
+import Pricing from "./Pricing/Pricing";
 import Services from "./Services/Services";
 import Team from "./Teams/Team";
-import Testimonials from "./Testimonials";
-=======
-import FAQ from "./FAQ/FAQ";
-import Features from "./Features";
-import Hero from "./Hero";
-import Services from "./Services/Services"
-import Pricing from "./Pricing/Pricing"
-import Team from "./Team";
 import Testimonials from "./Testimonials/Testimonials";
->>>>>>> Hridoy
 import Values from "./Values/Values";
-import Portfolio from "./Portfolio/Portfolio";
 
 const Home = () => {
 
