@@ -23,5 +23,6 @@ export const valuesData = [
 export const countsData = [
     {
         icon: 'bi-emoji-smile',
+        coutn: 232,
     }
 ]
